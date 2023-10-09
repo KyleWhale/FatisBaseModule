@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0171EB592AD3AE81004CDEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EB582AD3AE81004CDEFD /* AppDelegate.swift */; };
+		0171EB5D2AD3AE81004CDEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EB5C2AD3AE81004CDEFD /* ViewController.swift */; };
+		0171EB602AD3AE81004CDEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0171EB5E2AD3AE81004CDEFD /* Main.storyboard */; };
+		0171EB622AD3AE83004CDEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0171EB612AD3AE83004CDEFD /* Assets.xcassets */; };
+		0171EB652AD3AE83004CDEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0171EB632AD3AE83004CDEFD /* LaunchScreen.storyboard */; };
+		0171ECD42AD3B0E3004CDEFD /* HTClassModelReqError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC152AD3B0E3004CDEFD /* HTClassModelReqError.swift */; };
+		0171ECD52AD3B0E3004CDEFD /* HTClassCheckUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC162AD3B0E3004CDEFD /* HTClassCheckUntil.swift */; };
+		0171ECD62AD3B0E3004CDEFD /* HTClassNetWordUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC172AD3B0E3004CDEFD /* HTClassNetWordUntil.swift */; };
+		0171ECD72AD3B0E3004CDEFD /* HTClassPayUntils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC182AD3B0E3004CDEFD /* HTClassPayUntils.swift */; };
+		0171ECD82AD3B0E3004CDEFD /* HTClassPointRequestUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC192AD3B0E3004CDEFD /* HTClassPointRequestUntil.swift */; };
+		0171ECD92AD3B0E3004CDEFD /* HTClassSuggestRequestUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC1A2AD3B0E3004CDEFD /* HTClassSuggestRequestUntil.swift */; };
+		0171ECDA2AD3B0E3004CDEFD /* HTClassScreenUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC1B2AD3B0E3004CDEFD /* HTClassScreenUntil.swift */; };
+		0171ECDB2AD3B0E3004CDEFD /* HTClassSRTUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC1C2AD3B0E3004CDEFD /* HTClassSRTUntil.swift */; };
+		0171ECDC2AD3B0E3004CDEFD /* HTClassDownUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC1D2AD3B0E3004CDEFD /* HTClassDownUntil.swift */; };
+		0171ECDD2AD3B0E3004CDEFD /* HTClassNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC202AD3B0E3004CDEFD /* HTClassNaviVC.swift */; };
+		0171ECDE2AD3B0E3004CDEFD /* HTClassFitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC222AD3B0E3004CDEFD /* HTClassFitImageView.swift */; };
+		0171ECDF2AD3B0E3004CDEFD /* HTClassTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC232AD3B0E3004CDEFD /* HTClassTableView.swift */; };
+		0171ECE02AD3B0E3004CDEFD /* HTClassBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC242AD3B0E3004CDEFD /* HTClassBaseVC.swift */; };
+		0171ECE12AD3B0E3004CDEFD /* HTClassAutoScrollLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC252AD3B0E3004CDEFD /* HTClassAutoScrollLabel.swift */; };
+		0171ECE22AD3B0E3004CDEFD /* HTClassIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC262AD3B0E3004CDEFD /* HTClassIconView.swift */; };
+		0171ECE32AD3B0E3004CDEFD /* HTClassBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC272AD3B0E3004CDEFD /* HTClassBaseTableViewCell.swift */; };
+		0171ECE42AD3B0E3004CDEFD /* HTClassBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC282AD3B0E3004CDEFD /* HTClassBaseCollectionViewCell.swift */; };
+		0171ECE52AD3B0E3004CDEFD /* HTClassWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC292AD3B0E3004CDEFD /* HTClassWebVC.swift */; };
+		0171ECE62AD3B0E3004CDEFD /* HTClassBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC2A2AD3B0E3004CDEFD /* HTClassBaseView.swift */; };
+		0171ECE72AD3B0E3004CDEFD /* HTClassCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC2B2AD3B0E3004CDEFD /* HTClassCollectionView.swift */; };
+		0171ECE82AD3B0E3004CDEFD /* HTClassLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC2C2AD3B0E3004CDEFD /* HTClassLabel.swift */; };
+		0171ECE92AD3B0E3004CDEFD /* HTClassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC2D2AD3B0E3004CDEFD /* HTClassButton.swift */; };
+		0171ECEB2AD3B0E3004CDEFD /* HTClassModelHandJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC312AD3B0E3004CDEFD /* HTClassModelHandJson.swift */; };
+		0171ECEC2AD3B0E3004CDEFD /* HTClassModelInstall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC322AD3B0E3004CDEFD /* HTClassModelInstall.swift */; };
+		0171ECED2AD3B0E3004CDEFD /* HTClassModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC332AD3B0E3004CDEFD /* HTClassModelBase.swift */; };
+		0171ECEE2AD3B0E3004CDEFD /* HTClassResponerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC352AD3B0E3004CDEFD /* HTClassResponerExt.swift */; };
+		0171ECEF2AD3B0E3004CDEFD /* HTClassDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC362AD3B0E3004CDEFD /* HTClassDateExtension.swift */; };
+		0171ECF02AD3B0E3004CDEFD /* HTClassUIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC372AD3B0E3004CDEFD /* HTClassUIColorExt.swift */; };
+		0171ECF12AD3B0E3004CDEFD /* HTClassWindowExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC382AD3B0E3004CDEFD /* HTClassWindowExt.swift */; };
+		0171ECF22AD3B0E3004CDEFD /* HTClassUIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC392AD3B0E3004CDEFD /* HTClassUIViewExt.swift */; };
+		0171ECF32AD3B0E3004CDEFD /* HTClassTextViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC3A2AD3B0E3004CDEFD /* HTClassTextViewExt.swift */; };
+		0171ECF42AD3B0E3004CDEFD /* HTClassTextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC3B2AD3B0E3004CDEFD /* HTClassTextFieldExt.swift */; };
+		0171ECF52AD3B0E3004CDEFD /* HTClassImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC3C2AD3B0E3004CDEFD /* HTClassImageExt.swift */; };
+		0171ECF62AD3B0E3004CDEFD /* HTClassCommonAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC3E2AD3B0E3004CDEFD /* HTClassCommonAlert.swift */; };
+		0171ECF72AD3B0E3004CDEFD /* HTClassCommonAlertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC3F2AD3B0E3004CDEFD /* HTClassCommonAlertCell.swift */; };
+		0171ECF82AD3B0E3004CDEFD /* HTClassCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC402AD3B0E3004CDEFD /* HTClassCommon.swift */; };
+		0171ECF92AD3B0E3004CDEFD /* HTClassProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC412AD3B0E3004CDEFD /* HTClassProperty.swift */; };
+		0171ECFA2AD3B0E3004CDEFD /* HTClassEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC422AD3B0E3004CDEFD /* HTClassEvent.swift */; };
+		0171ECFB2AD3B0E3004CDEFD /* HTClassShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC442AD3B0E3004CDEFD /* HTClassShare.swift */; };
+		0171ECFC2AD3B0E3004CDEFD /* HTClassModelServerPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC462AD3B0E3004CDEFD /* HTClassModelServerPay.swift */; };
+		0171ECFD2AD3B0E3004CDEFD /* HTClassModelPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC472AD3B0E3004CDEFD /* HTClassModelPush.swift */; };
+		0171ECFE2AD3B0E3004CDEFD /* HTClassModelDevicePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC482AD3B0E3004CDEFD /* HTClassModelDevicePay.swift */; };
+		0171ECFF2AD3B0E3004CDEFD /* HTClassModelApplovin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC492AD3B0E3004CDEFD /* HTClassModelApplovin.swift */; };
+		0171ED002AD3B0E3004CDEFD /* HTClassModelSubscribePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC4A2AD3B0E3004CDEFD /* HTClassModelSubscribePrice.swift */; };
+		0171ED012AD3B0E3004CDEFD /* HTClassModelFakeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC4B2AD3B0E3004CDEFD /* HTClassModelFakeCard.swift */; };
+		0171ED022AD3B0E3004CDEFD /* HTClassModelShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC4C2AD3B0E3004CDEFD /* HTClassModelShare.swift */; };
+		0171ED032AD3B0E3004CDEFD /* HTClassModelLocalPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC4D2AD3B0E3004CDEFD /* HTClassModelLocalPay.swift */; };
+		0171ED042AD3B0E3004CDEFD /* HTClassModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC4E2AD3B0E3004CDEFD /* HTClassModelConfig.swift */; };
+		0171ED052AD3B0E3004CDEFD /* HTClassModelFamilyPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC4F2AD3B0E3004CDEFD /* HTClassModelFamilyPay.swift */; };
+		0171ED062AD3B0E3004CDEFD /* HTClassModelPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC502AD3B0E3004CDEFD /* HTClassModelPay.swift */; };
+		0171ED072AD3B0E3004CDEFD /* HTClassModelGdNstll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC512AD3B0E3004CDEFD /* HTClassModelGdNstll.swift */; };
+		0171ED082AD3B0E3004CDEFD /* HTClassModelSubscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC522AD3B0E3004CDEFD /* HTClassModelSubscribe.swift */; };
+		0171ED092AD3B0E3004CDEFD /* HTClassManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171EC532AD3B0E3004CDEFD /* HTClassManage.swift */; };
+		0171ED152AD3DA84004CDEFD /* HTClassModelHomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED0B2AD3DA84004CDEFD /* HTClassModelHomeList.swift */; };
+		0171ED162AD3DA84004CDEFD /* HTClassModelMVSRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED0C2AD3DA84004CDEFD /* HTClassModelMVSRT.swift */; };
+		0171ED172AD3DA84004CDEFD /* HTClassModelBig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED0D2AD3DA84004CDEFD /* HTClassModelBig.swift */; };
+		0171ED182AD3DA84004CDEFD /* HTClassModelMVLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED0E2AD3DA84004CDEFD /* HTClassModelMVLink.swift */; };
+		0171ED192AD3DA84004CDEFD /* HTClassModelFlexParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED0F2AD3DA84004CDEFD /* HTClassModelFlexParam.swift */; };
+		0171ED1A2AD3DA84004CDEFD /* HTClassModelHomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED102AD3DA84004CDEFD /* HTClassModelHomeBanner.swift */; };
+		0171ED1B2AD3DA84004CDEFD /* HTClassModelMVSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED112AD3DA84004CDEFD /* HTClassModelMVSession.swift */; };
+		0171ED1C2AD3DA84004CDEFD /* HTClassModelMV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED122AD3DA84004CDEFD /* HTClassModelMV.swift */; };
+		0171ED1D2AD3DA84004CDEFD /* HTClassModelHomeListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED132AD3DA84004CDEFD /* HTClassModelHomeListData.swift */; };
+		0171ED1E2AD3DA84004CDEFD /* HTClassModelFlex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED142AD3DA84004CDEFD /* HTClassModelFlex.swift */; };
+		0171ED232AD3DAE6004CDEFD /* HTClassContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED1F2AD3DAE6004CDEFD /* HTClassContentView.swift */; };
+		0171ED242AD3DAE6004CDEFD /* HTClassModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED202AD3DAE6004CDEFD /* HTClassModelUser.swift */; };
+		0171ED252AD3DAE6004CDEFD /* HTClassModelUserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED212AD3DAE6004CDEFD /* HTClassModelUserLogin.swift */; };
+		0171ED262AD3DAE6004CDEFD /* HTClassButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED222AD3DAE6004CDEFD /* HTClassButtonView.swift */; };
+		0171ED282AD3DC12004CDEFD /* HTClassMutilangManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED272AD3DC12004CDEFD /* HTClassMutilangManager.swift */; };
+		0171ED2A2AD3DC78004CDEFD /* HTClassSwitchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171ED292AD3DC78004CDEFD /* HTClassSwitchManager.swift */; };
+		736A79BE81013A46388AD3A4 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD90896B34CDB19DEC97500A /* Pods_Runner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0171EB552AD3AE81004CDEFD /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0171EB582AD3AE81004CDEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0171EB5C2AD3AE81004CDEFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0171EB5F2AD3AE81004CDEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0171EB612AD3AE83004CDEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0171EB642AD3AE83004CDEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0171EB662AD3AE83004CDEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0171EC152AD3B0E3004CDEFD /* HTClassModelReqError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelReqError.swift; sourceTree = "<group>"; };
+		0171EC162AD3B0E3004CDEFD /* HTClassCheckUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassCheckUntil.swift; sourceTree = "<group>"; };
+		0171EC172AD3B0E3004CDEFD /* HTClassNetWordUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassNetWordUntil.swift; sourceTree = "<group>"; };
+		0171EC182AD3B0E3004CDEFD /* HTClassPayUntils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassPayUntils.swift; sourceTree = "<group>"; };
+		0171EC192AD3B0E3004CDEFD /* HTClassPointRequestUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassPointRequestUntil.swift; sourceTree = "<group>"; };
+		0171EC1A2AD3B0E3004CDEFD /* HTClassSuggestRequestUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassSuggestRequestUntil.swift; sourceTree = "<group>"; };
+		0171EC1B2AD3B0E3004CDEFD /* HTClassScreenUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassScreenUntil.swift; sourceTree = "<group>"; };
+		0171EC1C2AD3B0E3004CDEFD /* HTClassSRTUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassSRTUntil.swift; sourceTree = "<group>"; };
+		0171EC1D2AD3B0E3004CDEFD /* HTClassDownUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassDownUntil.swift; sourceTree = "<group>"; };
+		0171EC202AD3B0E3004CDEFD /* HTClassNaviVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassNaviVC.swift; sourceTree = "<group>"; };
+		0171EC222AD3B0E3004CDEFD /* HTClassFitImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassFitImageView.swift; sourceTree = "<group>"; };
+		0171EC232AD3B0E3004CDEFD /* HTClassTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassTableView.swift; sourceTree = "<group>"; };
+		0171EC242AD3B0E3004CDEFD /* HTClassBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassBaseVC.swift; sourceTree = "<group>"; };
+		0171EC252AD3B0E3004CDEFD /* HTClassAutoScrollLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassAutoScrollLabel.swift; sourceTree = "<group>"; };
+		0171EC262AD3B0E3004CDEFD /* HTClassIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassIconView.swift; sourceTree = "<group>"; };
+		0171EC272AD3B0E3004CDEFD /* HTClassBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassBaseTableViewCell.swift; sourceTree = "<group>"; };
+		0171EC282AD3B0E3004CDEFD /* HTClassBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		0171EC292AD3B0E3004CDEFD /* HTClassWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassWebVC.swift; sourceTree = "<group>"; };
+		0171EC2A2AD3B0E3004CDEFD /* HTClassBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassBaseView.swift; sourceTree = "<group>"; };
+		0171EC2B2AD3B0E3004CDEFD /* HTClassCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassCollectionView.swift; sourceTree = "<group>"; };
+		0171EC2C2AD3B0E3004CDEFD /* HTClassLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassLabel.swift; sourceTree = "<group>"; };
+		0171EC2D2AD3B0E3004CDEFD /* HTClassButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassButton.swift; sourceTree = "<group>"; };
+		0171EC312AD3B0E3004CDEFD /* HTClassModelHandJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelHandJson.swift; sourceTree = "<group>"; };
+		0171EC322AD3B0E3004CDEFD /* HTClassModelInstall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelInstall.swift; sourceTree = "<group>"; };
+		0171EC332AD3B0E3004CDEFD /* HTClassModelBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelBase.swift; sourceTree = "<group>"; };
+		0171EC352AD3B0E3004CDEFD /* HTClassResponerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassResponerExt.swift; sourceTree = "<group>"; };
+		0171EC362AD3B0E3004CDEFD /* HTClassDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassDateExtension.swift; sourceTree = "<group>"; };
+		0171EC372AD3B0E3004CDEFD /* HTClassUIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassUIColorExt.swift; sourceTree = "<group>"; };
+		0171EC382AD3B0E3004CDEFD /* HTClassWindowExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassWindowExt.swift; sourceTree = "<group>"; };
+		0171EC392AD3B0E3004CDEFD /* HTClassUIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassUIViewExt.swift; sourceTree = "<group>"; };
+		0171EC3A2AD3B0E3004CDEFD /* HTClassTextViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassTextViewExt.swift; sourceTree = "<group>"; };
+		0171EC3B2AD3B0E3004CDEFD /* HTClassTextFieldExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassTextFieldExt.swift; sourceTree = "<group>"; };
+		0171EC3C2AD3B0E3004CDEFD /* HTClassImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassImageExt.swift; sourceTree = "<group>"; };
+		0171EC3E2AD3B0E3004CDEFD /* HTClassCommonAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassCommonAlert.swift; sourceTree = "<group>"; };
+		0171EC3F2AD3B0E3004CDEFD /* HTClassCommonAlertCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassCommonAlertCell.swift; sourceTree = "<group>"; };
+		0171EC402AD3B0E3004CDEFD /* HTClassCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassCommon.swift; sourceTree = "<group>"; };
+		0171EC412AD3B0E3004CDEFD /* HTClassProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassProperty.swift; sourceTree = "<group>"; };
+		0171EC422AD3B0E3004CDEFD /* HTClassEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassEvent.swift; sourceTree = "<group>"; };
+		0171EC442AD3B0E3004CDEFD /* HTClassShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassShare.swift; sourceTree = "<group>"; };
+		0171EC462AD3B0E3004CDEFD /* HTClassModelServerPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelServerPay.swift; sourceTree = "<group>"; };
+		0171EC472AD3B0E3004CDEFD /* HTClassModelPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelPush.swift; sourceTree = "<group>"; };
+		0171EC482AD3B0E3004CDEFD /* HTClassModelDevicePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelDevicePay.swift; sourceTree = "<group>"; };
+		0171EC492AD3B0E3004CDEFD /* HTClassModelApplovin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelApplovin.swift; sourceTree = "<group>"; };
+		0171EC4A2AD3B0E3004CDEFD /* HTClassModelSubscribePrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelSubscribePrice.swift; sourceTree = "<group>"; };
+		0171EC4B2AD3B0E3004CDEFD /* HTClassModelFakeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelFakeCard.swift; sourceTree = "<group>"; };
+		0171EC4C2AD3B0E3004CDEFD /* HTClassModelShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelShare.swift; sourceTree = "<group>"; };
+		0171EC4D2AD3B0E3004CDEFD /* HTClassModelLocalPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelLocalPay.swift; sourceTree = "<group>"; };
+		0171EC4E2AD3B0E3004CDEFD /* HTClassModelConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelConfig.swift; sourceTree = "<group>"; };
+		0171EC4F2AD3B0E3004CDEFD /* HTClassModelFamilyPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelFamilyPay.swift; sourceTree = "<group>"; };
+		0171EC502AD3B0E3004CDEFD /* HTClassModelPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelPay.swift; sourceTree = "<group>"; };
+		0171EC512AD3B0E3004CDEFD /* HTClassModelGdNstll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelGdNstll.swift; sourceTree = "<group>"; };
+		0171EC522AD3B0E3004CDEFD /* HTClassModelSubscribe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelSubscribe.swift; sourceTree = "<group>"; };
+		0171EC532AD3B0E3004CDEFD /* HTClassManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassManage.swift; sourceTree = "<group>"; };
+		0171ED0B2AD3DA84004CDEFD /* HTClassModelHomeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelHomeList.swift; sourceTree = "<group>"; };
+		0171ED0C2AD3DA84004CDEFD /* HTClassModelMVSRT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelMVSRT.swift; sourceTree = "<group>"; };
+		0171ED0D2AD3DA84004CDEFD /* HTClassModelBig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelBig.swift; sourceTree = "<group>"; };
+		0171ED0E2AD3DA84004CDEFD /* HTClassModelMVLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelMVLink.swift; sourceTree = "<group>"; };
+		0171ED0F2AD3DA84004CDEFD /* HTClassModelFlexParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelFlexParam.swift; sourceTree = "<group>"; };
+		0171ED102AD3DA84004CDEFD /* HTClassModelHomeBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelHomeBanner.swift; sourceTree = "<group>"; };
+		0171ED112AD3DA84004CDEFD /* HTClassModelMVSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelMVSession.swift; sourceTree = "<group>"; };
+		0171ED122AD3DA84004CDEFD /* HTClassModelMV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelMV.swift; sourceTree = "<group>"; };
+		0171ED132AD3DA84004CDEFD /* HTClassModelHomeListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelHomeListData.swift; sourceTree = "<group>"; };
+		0171ED142AD3DA84004CDEFD /* HTClassModelFlex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelFlex.swift; sourceTree = "<group>"; };
+		0171ED1F2AD3DAE6004CDEFD /* HTClassContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassContentView.swift; sourceTree = "<group>"; };
+		0171ED202AD3DAE6004CDEFD /* HTClassModelUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelUser.swift; sourceTree = "<group>"; };
+		0171ED212AD3DAE6004CDEFD /* HTClassModelUserLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassModelUserLogin.swift; sourceTree = "<group>"; };
+		0171ED222AD3DAE6004CDEFD /* HTClassButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassButtonView.swift; sourceTree = "<group>"; };
+		0171ED272AD3DC12004CDEFD /* HTClassMutilangManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassMutilangManager.swift; sourceTree = "<group>"; };
+		0171ED292AD3DC78004CDEFD /* HTClassSwitchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTClassSwitchManager.swift; sourceTree = "<group>"; };
+		5840EA9831870068BCFDC2AA /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		BD90896B34CDB19DEC97500A /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA48606A03CE53E067062111 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0171EB522AD3AE81004CDEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736A79BE81013A46388AD3A4 /* Pods_Runner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0171EB4C2AD3AE81004CDEFD = {
+			isa = PBXGroup;
+			children = (
+				0171EB572AD3AE81004CDEFD /* Runner */,
+				0171EB562AD3AE81004CDEFD /* Products */,
+				E57DBD018D5B833100FAC28C /* Pods */,
+				DD38D4E0D42BE93B7985CCC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0171EB562AD3AE81004CDEFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0171EB552AD3AE81004CDEFD /* Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0171EB572AD3AE81004CDEFD /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				0171EB702AD3AF0C004CDEFD /* Classes */,
+				0171EB582AD3AE81004CDEFD /* AppDelegate.swift */,
+				0171EB5C2AD3AE81004CDEFD /* ViewController.swift */,
+				0171EB5E2AD3AE81004CDEFD /* Main.storyboard */,
+				0171EB612AD3AE83004CDEFD /* Assets.xcassets */,
+				0171EB632AD3AE83004CDEFD /* LaunchScreen.storyboard */,
+				0171EB662AD3AE83004CDEFD /* Info.plist */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		0171EB702AD3AF0C004CDEFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0171ED222AD3DAE6004CDEFD /* HTClassButtonView.swift */,
+				0171ED1F2AD3DAE6004CDEFD /* HTClassContentView.swift */,
+				0171ED202AD3DAE6004CDEFD /* HTClassModelUser.swift */,
+				0171ED212AD3DAE6004CDEFD /* HTClassModelUserLogin.swift */,
+				0171ED272AD3DC12004CDEFD /* HTClassMutilangManager.swift */,
+				0171ED292AD3DC78004CDEFD /* HTClassSwitchManager.swift */,
+				0171ED0A2AD3DA84004CDEFD /* Model */,
+				0171EC1E2AD3B0E3004CDEFD /* Base */,
+				0171EC3D2AD3B0E3004CDEFD /* Common */,
+				0171EC342AD3B0E3004CDEFD /* Extension */,
+				0171EC432AD3B0E3004CDEFD /* Manage */,
+				0171EC142AD3B0E3004CDEFD /* Untils */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		0171EC142AD3B0E3004CDEFD /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC152AD3B0E3004CDEFD /* HTClassModelReqError.swift */,
+				0171EC162AD3B0E3004CDEFD /* HTClassCheckUntil.swift */,
+				0171EC172AD3B0E3004CDEFD /* HTClassNetWordUntil.swift */,
+				0171EC182AD3B0E3004CDEFD /* HTClassPayUntils.swift */,
+				0171EC192AD3B0E3004CDEFD /* HTClassPointRequestUntil.swift */,
+				0171EC1A2AD3B0E3004CDEFD /* HTClassSuggestRequestUntil.swift */,
+				0171EC1B2AD3B0E3004CDEFD /* HTClassScreenUntil.swift */,
+				0171EC1C2AD3B0E3004CDEFD /* HTClassSRTUntil.swift */,
+				0171EC1D2AD3B0E3004CDEFD /* HTClassDownUntil.swift */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		0171EC1E2AD3B0E3004CDEFD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC1F2AD3B0E3004CDEFD /* NaviBar */,
+				0171EC212AD3B0E3004CDEFD /* UIKIt */,
+				0171EC302AD3B0E3004CDEFD /* Model */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0171EC1F2AD3B0E3004CDEFD /* NaviBar */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC202AD3B0E3004CDEFD /* HTClassNaviVC.swift */,
+			);
+			path = NaviBar;
+			sourceTree = "<group>";
+		};
+		0171EC212AD3B0E3004CDEFD /* UIKIt */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC222AD3B0E3004CDEFD /* HTClassFitImageView.swift */,
+				0171EC232AD3B0E3004CDEFD /* HTClassTableView.swift */,
+				0171EC242AD3B0E3004CDEFD /* HTClassBaseVC.swift */,
+				0171EC252AD3B0E3004CDEFD /* HTClassAutoScrollLabel.swift */,
+				0171EC262AD3B0E3004CDEFD /* HTClassIconView.swift */,
+				0171EC272AD3B0E3004CDEFD /* HTClassBaseTableViewCell.swift */,
+				0171EC282AD3B0E3004CDEFD /* HTClassBaseCollectionViewCell.swift */,
+				0171EC292AD3B0E3004CDEFD /* HTClassWebVC.swift */,
+				0171EC2A2AD3B0E3004CDEFD /* HTClassBaseView.swift */,
+				0171EC2B2AD3B0E3004CDEFD /* HTClassCollectionView.swift */,
+				0171EC2C2AD3B0E3004CDEFD /* HTClassLabel.swift */,
+				0171EC2D2AD3B0E3004CDEFD /* HTClassButton.swift */,
+			);
+			path = UIKIt;
+			sourceTree = "<group>";
+		};
+		0171EC302AD3B0E3004CDEFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC312AD3B0E3004CDEFD /* HTClassModelHandJson.swift */,
+				0171EC322AD3B0E3004CDEFD /* HTClassModelInstall.swift */,
+				0171EC332AD3B0E3004CDEFD /* HTClassModelBase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0171EC342AD3B0E3004CDEFD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC362AD3B0E3004CDEFD /* HTClassDateExtension.swift */,
+				0171EC3C2AD3B0E3004CDEFD /* HTClassImageExt.swift */,
+				0171EC352AD3B0E3004CDEFD /* HTClassResponerExt.swift */,
+				0171EC3B2AD3B0E3004CDEFD /* HTClassTextFieldExt.swift */,
+				0171EC3A2AD3B0E3004CDEFD /* HTClassTextViewExt.swift */,
+				0171EC372AD3B0E3004CDEFD /* HTClassUIColorExt.swift */,
+				0171EC392AD3B0E3004CDEFD /* HTClassUIViewExt.swift */,
+				0171EC382AD3B0E3004CDEFD /* HTClassWindowExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0171EC3D2AD3B0E3004CDEFD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC402AD3B0E3004CDEFD /* HTClassCommon.swift */,
+				0171EC3E2AD3B0E3004CDEFD /* HTClassCommonAlert.swift */,
+				0171EC3F2AD3B0E3004CDEFD /* HTClassCommonAlertCell.swift */,
+				0171EC422AD3B0E3004CDEFD /* HTClassEvent.swift */,
+				0171EC412AD3B0E3004CDEFD /* HTClassProperty.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0171EC432AD3B0E3004CDEFD /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				0171EC532AD3B0E3004CDEFD /* HTClassManage.swift */,
+				0171EC492AD3B0E3004CDEFD /* HTClassModelApplovin.swift */,
+				0171EC4E2AD3B0E3004CDEFD /* HTClassModelConfig.swift */,
+				0171EC482AD3B0E3004CDEFD /* HTClassModelDevicePay.swift */,
+				0171EC4B2AD3B0E3004CDEFD /* HTClassModelFakeCard.swift */,
+				0171EC4F2AD3B0E3004CDEFD /* HTClassModelFamilyPay.swift */,
+				0171EC512AD3B0E3004CDEFD /* HTClassModelGdNstll.swift */,
+				0171EC4D2AD3B0E3004CDEFD /* HTClassModelLocalPay.swift */,
+				0171EC502AD3B0E3004CDEFD /* HTClassModelPay.swift */,
+				0171EC472AD3B0E3004CDEFD /* HTClassModelPush.swift */,
+				0171EC462AD3B0E3004CDEFD /* HTClassModelServerPay.swift */,
+				0171EC4C2AD3B0E3004CDEFD /* HTClassModelShare.swift */,
+				0171EC522AD3B0E3004CDEFD /* HTClassModelSubscribe.swift */,
+				0171EC4A2AD3B0E3004CDEFD /* HTClassModelSubscribePrice.swift */,
+				0171EC442AD3B0E3004CDEFD /* HTClassShare.swift */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		0171ED0A2AD3DA84004CDEFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0171ED0D2AD3DA84004CDEFD /* HTClassModelBig.swift */,
+				0171ED142AD3DA84004CDEFD /* HTClassModelFlex.swift */,
+				0171ED0F2AD3DA84004CDEFD /* HTClassModelFlexParam.swift */,
+				0171ED102AD3DA84004CDEFD /* HTClassModelHomeBanner.swift */,
+				0171ED0B2AD3DA84004CDEFD /* HTClassModelHomeList.swift */,
+				0171ED132AD3DA84004CDEFD /* HTClassModelHomeListData.swift */,
+				0171ED122AD3DA84004CDEFD /* HTClassModelMV.swift */,
+				0171ED0E2AD3DA84004CDEFD /* HTClassModelMVLink.swift */,
+				0171ED112AD3DA84004CDEFD /* HTClassModelMVSession.swift */,
+				0171ED0C2AD3DA84004CDEFD /* HTClassModelMVSRT.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD38D4E0D42BE93B7985CCC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD90896B34CDB19DEC97500A /* Pods_Runner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E57DBD018D5B833100FAC28C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5840EA9831870068BCFDC2AA /* Pods-Runner.debug.xcconfig */,
+				FA48606A03CE53E067062111 /* Pods-Runner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0171EB542AD3AE81004CDEFD /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0171EB692AD3AE83004CDEFD /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				301B3C2E8D680CFAAAF7E30A /* [CP] Check Pods Manifest.lock */,
+				0171EB512AD3AE81004CDEFD /* Sources */,
+				0171EB522AD3AE81004CDEFD /* Frameworks */,
+				0171EB532AD3AE81004CDEFD /* Resources */,
+				260266D3280F2EB8F50301E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 0171EB552AD3AE81004CDEFD /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0171EB4D2AD3AE81004CDEFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0171EB542AD3AE81004CDEFD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0171EB502AD3AE81004CDEFD /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0171EB4C2AD3AE81004CDEFD;
+			productRefGroup = 0171EB562AD3AE81004CDEFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0171EB542AD3AE81004CDEFD /* Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0171EB532AD3AE81004CDEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0171EB652AD3AE83004CDEFD /* LaunchScreen.storyboard in Resources */,
+				0171EB622AD3AE83004CDEFD /* Assets.xcassets in Resources */,
+				0171EB602AD3AE81004CDEFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260266D3280F2EB8F50301E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		301B3C2E8D680CFAAAF7E30A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0171EB512AD3AE81004CDEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0171ED092AD3B0E3004CDEFD /* HTClassManage.swift in Sources */,
+				0171ED162AD3DA84004CDEFD /* HTClassModelMVSRT.swift in Sources */,
+				0171ED052AD3B0E3004CDEFD /* HTClassModelFamilyPay.swift in Sources */,
+				0171ECDB2AD3B0E3004CDEFD /* HTClassSRTUntil.swift in Sources */,
+				0171EB5D2AD3AE81004CDEFD /* ViewController.swift in Sources */,
+				0171ED002AD3B0E3004CDEFD /* HTClassModelSubscribePrice.swift in Sources */,
+				0171ED282AD3DC12004CDEFD /* HTClassMutilangManager.swift in Sources */,
+				0171ECF12AD3B0E3004CDEFD /* HTClassWindowExt.swift in Sources */,
+				0171ECF42AD3B0E3004CDEFD /* HTClassTextFieldExt.swift in Sources */,
+				0171ED172AD3DA84004CDEFD /* HTClassModelBig.swift in Sources */,
+				0171ED252AD3DAE6004CDEFD /* HTClassModelUserLogin.swift in Sources */,
+				0171ECF92AD3B0E3004CDEFD /* HTClassProperty.swift in Sources */,
+				0171ECE92AD3B0E3004CDEFD /* HTClassButton.swift in Sources */,
+				0171EB592AD3AE81004CDEFD /* AppDelegate.swift in Sources */,
+				0171ED1B2AD3DA84004CDEFD /* HTClassModelMVSession.swift in Sources */,
+				0171ECEB2AD3B0E3004CDEFD /* HTClassModelHandJson.swift in Sources */,
+				0171ED042AD3B0E3004CDEFD /* HTClassModelConfig.swift in Sources */,
+				0171ECDF2AD3B0E3004CDEFD /* HTClassTableView.swift in Sources */,
+				0171ED032AD3B0E3004CDEFD /* HTClassModelLocalPay.swift in Sources */,
+				0171ECDE2AD3B0E3004CDEFD /* HTClassFitImageView.swift in Sources */,
+				0171ECE62AD3B0E3004CDEFD /* HTClassBaseView.swift in Sources */,
+				0171ECDD2AD3B0E3004CDEFD /* HTClassNaviVC.swift in Sources */,
+				0171ED1E2AD3DA84004CDEFD /* HTClassModelFlex.swift in Sources */,
+				0171ED1C2AD3DA84004CDEFD /* HTClassModelMV.swift in Sources */,
+				0171ECEF2AD3B0E3004CDEFD /* HTClassDateExtension.swift in Sources */,
+				0171ED012AD3B0E3004CDEFD /* HTClassModelFakeCard.swift in Sources */,
+				0171ECE72AD3B0E3004CDEFD /* HTClassCollectionView.swift in Sources */,
+				0171ED182AD3DA84004CDEFD /* HTClassModelMVLink.swift in Sources */,
+				0171ECD52AD3B0E3004CDEFD /* HTClassCheckUntil.swift in Sources */,
+				0171ED1D2AD3DA84004CDEFD /* HTClassModelHomeListData.swift in Sources */,
+				0171ECE52AD3B0E3004CDEFD /* HTClassWebVC.swift in Sources */,
+				0171ECDC2AD3B0E3004CDEFD /* HTClassDownUntil.swift in Sources */,
+				0171ECDA2AD3B0E3004CDEFD /* HTClassScreenUntil.swift in Sources */,
+				0171ED262AD3DAE6004CDEFD /* HTClassButtonView.swift in Sources */,
+				0171ECF82AD3B0E3004CDEFD /* HTClassCommon.swift in Sources */,
+				0171ECE12AD3B0E3004CDEFD /* HTClassAutoScrollLabel.swift in Sources */,
+				0171ECFA2AD3B0E3004CDEFD /* HTClassEvent.swift in Sources */,
+				0171ECF32AD3B0E3004CDEFD /* HTClassTextViewExt.swift in Sources */,
+				0171ED152AD3DA84004CDEFD /* HTClassModelHomeList.swift in Sources */,
+				0171ECD42AD3B0E3004CDEFD /* HTClassModelReqError.swift in Sources */,
+				0171ECD72AD3B0E3004CDEFD /* HTClassPayUntils.swift in Sources */,
+				0171ECF72AD3B0E3004CDEFD /* HTClassCommonAlertCell.swift in Sources */,
+				0171ECD62AD3B0E3004CDEFD /* HTClassNetWordUntil.swift in Sources */,
+				0171ECFE2AD3B0E3004CDEFD /* HTClassModelDevicePay.swift in Sources */,
+				0171ECF22AD3B0E3004CDEFD /* HTClassUIViewExt.swift in Sources */,
+				0171ECEC2AD3B0E3004CDEFD /* HTClassModelInstall.swift in Sources */,
+				0171ED232AD3DAE6004CDEFD /* HTClassContentView.swift in Sources */,
+				0171ECE42AD3B0E3004CDEFD /* HTClassBaseCollectionViewCell.swift in Sources */,
+				0171ECED2AD3B0E3004CDEFD /* HTClassModelBase.swift in Sources */,
+				0171ECFD2AD3B0E3004CDEFD /* HTClassModelPush.swift in Sources */,
+				0171ED022AD3B0E3004CDEFD /* HTClassModelShare.swift in Sources */,
+				0171ED2A2AD3DC78004CDEFD /* HTClassSwitchManager.swift in Sources */,
+				0171ECE22AD3B0E3004CDEFD /* HTClassIconView.swift in Sources */,
+				0171ECEE2AD3B0E3004CDEFD /* HTClassResponerExt.swift in Sources */,
+				0171ED062AD3B0E3004CDEFD /* HTClassModelPay.swift in Sources */,
+				0171ECE82AD3B0E3004CDEFD /* HTClassLabel.swift in Sources */,
+				0171ECE02AD3B0E3004CDEFD /* HTClassBaseVC.swift in Sources */,
+				0171ECFC2AD3B0E3004CDEFD /* HTClassModelServerPay.swift in Sources */,
+				0171ECD82AD3B0E3004CDEFD /* HTClassPointRequestUntil.swift in Sources */,
+				0171ED1A2AD3DA84004CDEFD /* HTClassModelHomeBanner.swift in Sources */,
+				0171ECD92AD3B0E3004CDEFD /* HTClassSuggestRequestUntil.swift in Sources */,
+				0171ED072AD3B0E3004CDEFD /* HTClassModelGdNstll.swift in Sources */,
+				0171ED082AD3B0E3004CDEFD /* HTClassModelSubscribe.swift in Sources */,
+				0171ECFB2AD3B0E3004CDEFD /* HTClassShare.swift in Sources */,
+				0171ECE32AD3B0E3004CDEFD /* HTClassBaseTableViewCell.swift in Sources */,
+				0171ECF52AD3B0E3004CDEFD /* HTClassImageExt.swift in Sources */,
+				0171ECF02AD3B0E3004CDEFD /* HTClassUIColorExt.swift in Sources */,
+				0171ECFF2AD3B0E3004CDEFD /* HTClassModelApplovin.swift in Sources */,
+				0171ED192AD3DA84004CDEFD /* HTClassModelFlexParam.swift in Sources */,
+				0171ECF62AD3B0E3004CDEFD /* HTClassCommonAlert.swift in Sources */,
+				0171ED242AD3DAE6004CDEFD /* HTClassModelUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0171EB5E2AD3AE81004CDEFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0171EB5F2AD3AE81004CDEFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0171EB632AD3AE83004CDEFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0171EB642AD3AE83004CDEFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0171EB672AD3AE83004CDEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0171EB682AD3AE83004CDEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0171EB6A2AD3AE83004CDEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5840EA9831870068BCFDC2AA /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhale.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0171EB6B2AD3AE83004CDEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA48606A03CE53E067062111 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhale.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0171EB502AD3AE81004CDEFD /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0171EB672AD3AE83004CDEFD /* Debug */,
+				0171EB682AD3AE83004CDEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0171EB692AD3AE83004CDEFD /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0171EB6A2AD3AE83004CDEFD /* Debug */,
+				0171EB6B2AD3AE83004CDEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0171EB4D2AD3AE81004CDEFD /* Project object */;
+}
