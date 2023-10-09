@@ -7,7 +7,6 @@
 
 import UIKit
 import IQKeyboardManagerSwift
-import FirebaseDynamicLinks
 
 func ht_image(_ var_url:String) -> URL?{
     let var_string = UserDefaults.standard.string(forKey: "udf_imageDomain") ?? ""

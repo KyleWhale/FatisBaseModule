@@ -17,7 +17,6 @@ target 'Runner' do
   pod 'RZColorfulSwift'
   pod 'Toast-Swift', '~> 5.0.1'
   pod 'IQKeyboardManagerSwift'
-  pod 'FirebaseDynamicLinks'
   
   # Pods for Runner
 

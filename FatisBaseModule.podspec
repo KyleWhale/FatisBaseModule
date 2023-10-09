@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FatisBaseModule"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "FatisBaseModule Code"
 
   # This description is used to generate tags and improve search results.
@@ -144,6 +144,5 @@ Pod::Spec.new do |spec|
   spec.dependency "RZColorfulSwift"
   spec.dependency "Toast-Swift"
   spec.dependency "IQKeyboardManagerSwift"
-  spec.dependency "FirebaseDynamicLinks"
 
 end
